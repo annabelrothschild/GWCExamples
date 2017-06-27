@@ -3,7 +3,7 @@
 <body>
 
 <script>
-    alert("Hello! I am an alert box!");
+    alert("Hello from the Alert Box...I must've called 1,000 times");
 </script>
 
 </body>
