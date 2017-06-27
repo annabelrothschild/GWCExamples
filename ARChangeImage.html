@@ -2,12 +2,19 @@
 <html>
 <body>
 
-<h2>Check out this amazing button wow so amazing</h2>
 
-<!--<button onclick="document.getElementById('logo').src='gwc1.jpg'">Click the logo</button>
-<button onclick="document.getElementById('logo').src='gwc2.jpg'">Wowza logo change</button> -->
+<script>
+    function MouseIn(){
+        logo.src = "gwc2.jpg";
+    }
+    function MouseOut(){
+        logo.src = "gwc1.jpg";    
+    }
+    </script>
 
-<img id="logo" src="gwc1.jpg" style="width:100px">
+
+<img id="logo" src="gwc1.jpg" style="width:100px" onMouseOver="MouseIn()" onMouseOut="MouseOut()">
+
   
 
 
