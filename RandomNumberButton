@@ -4,12 +4,12 @@
     <head>
         <meta charset="utf-8">
     </head>
-    <body>
-        
-            <input type="button" id="btnSearch" value="Random Array Value Button" onclick="GetValue();" />
+    <body id="message" >
+
+            <input type="button" id="btnSearch" value="What should we have for lunch?" onclick="GetValue();" />
             <script>
                 function GetValue(){
-                    var myarray= new Array("item1","item2","item3");
+                    var myarray= new Array("Sandwich","Pasta","Cookie","Chick-fil-A");
                     //Math.random() returns a decimal between 0 and 1 so you need to multiply a 
                     //random number by the number of things in the array and then round it
                     //down to the nearest whole number
@@ -18,7 +18,6 @@
                     document.getElementById("message").innerHTML=random;
                 }
             </script>
-            
+
     </body>
 </html>
-
